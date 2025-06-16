@@ -10,7 +10,9 @@ testButton.addEventListener("click", function() {
     // CODE SOLO
     // - When the button is clicked, a random number between 0 and 99 is generated. 
     // - Depending on the value of this number, different actions will occur:
-
+    if(randomNumber<30){
+        
+    }
     // 1. If the number is less than 30, a message will be displayed on the web page.
     //  - The message should read: "The number is less than 30."
     
